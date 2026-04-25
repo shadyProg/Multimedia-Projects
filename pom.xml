@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.audio</groupId>
+  <artifactId>AudioProject</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>AudioProject</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+
+    <!-- MP3 Support -->
+    <dependency>
+        <groupId>com.googlecode.soundlibs</groupId>
+        <artifactId>mp3spi</artifactId>
+        <version>1.9.5.4</version>
+    </dependency>
+
+    <!-- OGG Support -->
+    <dependency>
+        <groupId>com.googlecode.soundlibs</groupId>
+        <artifactId>vorbisspi</artifactId>
+        <version>1.0.3.3</version>
+    </dependency>
+
+    <!-- FLAC Support -->
+    <dependency>
+        <groupId>org.jflac</groupId>
+        <artifactId>jflac-codec</artifactId>
+        <version>1.5.2</version>
+    </dependency>
+
+
+  </dependencies>
+  
+</project>
